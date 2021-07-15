@@ -1,9 +1,5 @@
 import math
 
-import sys
-sys.path.append('...\deploying-machine-learning-models\packages\ml_api')
-sys.path.append('...\deploying-machine-learning-models\packages\regression_model')
-
 from regression_model.config import config as model_config
 from regression_model.predict import make_prediction
 from regression_model.processing.data_management import load_dataset
