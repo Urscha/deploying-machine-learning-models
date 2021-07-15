@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn.model_selection import train_test_split
-# import sys
-# sys.path.append("C:/Users/a793695/Documents/deploying-machine-learning-models/packages/regression_model")
+import sys
+sys.path.append("C:/Users/a793695/Documents/deploying-machine-learning-models/packages/regression_model")
 
 from regression_model import pipeline
 from regression_model.processing.data_management import load_dataset, save_pipeline
