@@ -5,6 +5,9 @@ differential test versioning logic.
 """
 
 import pandas as pd
+import sys
+sys.path.append('C:/Users/a793695/Documents/deploying-machine-learning-models/packages/regression_model/')
+sys.path.append('C:/Users/a793695/Documents/deploying-machine-learning-models/packages/ml_api/')
 
 from regression_model.predict import make_prediction
 from regression_model.processing.data_management import load_dataset
