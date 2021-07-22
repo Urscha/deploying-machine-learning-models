@@ -12,6 +12,5 @@ tid-regression-model==4.0.2
 pytest>=5.3.2,<6.0.0
 
 
-# temporarily necessary as we update sklearn
-joblib>=0.14.1,<0.15.0
+
 
