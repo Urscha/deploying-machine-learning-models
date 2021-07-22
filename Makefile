@@ -1,4 +1,4 @@
-NAME=ml-api-deployment-1245
+NAME=hello-fork
 COMMIT_ID=$(shell git rev-parse HEAD)
 
 
